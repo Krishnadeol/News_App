@@ -1,6 +1,7 @@
 import React from 'react'
 import Navbar from './components/Navbar'
 import Newsblock from './components/Newsblock'
+//import Ecar from './components/Ecar'
 
 export default function App() {
  
@@ -8,6 +9,7 @@ export default function App() {
       <div>
         <Navbar/>
         <Newsblock/>
+      {/* <Ecar/> */}
       </div>
   )
 }

@@ -17,13 +17,10 @@ const getData= async ()=>{
 useEffect(()=>{
   getData()
 },[])
-
-
       return (
 
     <div className="container">
-      <h2 >. .  Burning News Headlines . .</h2>
-
+      <h2 style={{marginTop:"60px" ,color:"orange"}} >Burning News Headlines...</h2>
     <div className="row">     
     {nobj && nobj.map((obj)=>{     
     return  <div className="col-md-4" key={obj.url}>
